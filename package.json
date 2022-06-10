@@ -1,6 +1,10 @@
 {
   "name": "1to1guru",
   "private": true,
+  "engines": {
+    "npm": "8.1.2"
+    "node": "v16.13.0"
+}
   "scripts": {
     "dev": "next dev",
     "build": "next build",
