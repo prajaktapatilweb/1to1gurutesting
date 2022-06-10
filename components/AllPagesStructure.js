@@ -43,7 +43,7 @@ export default function AllPagesStructure({ grade, board, subject }) {
                             <h1>{subject}            </h1>
                             {AllSyllabus.grade}
                             {AllSyllabus[grade][board][subject].DetailSubjects.map((item, i) => (
-                                <li>{item}</li>
+                                <li key={i}>{item}</li>
                             ))}
 
 
